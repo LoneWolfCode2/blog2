@@ -1,0 +1,12 @@
+.latest-posts {
+  padding: 90px 60px 90px;
+}
+
+.latest-container > h2 {
+  margin-bottom: 40px;
+  text-align: left;
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 400;
+  margin-left: 12px;
+}

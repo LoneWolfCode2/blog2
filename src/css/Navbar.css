@@ -1,0 +1,20 @@
+.navbar-brand {
+  /* text-decoration: underline; */
+}
+.bg-variant {
+  background-color: white;
+}
+.nav-link {
+  background-color: white;
+  border-bottom: 1px solid #dee2e6;
+  transition: 0.3s ease-in-out;
+  height: 90px;
+  padding-top: 30px;
+  font-weight: 600;
+  color: black !important;
+  line-height: 24px;
+}
+
+.nav-link:hover {
+  border-bottom: 3px solid black;
+}

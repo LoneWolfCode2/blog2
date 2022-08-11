@@ -1,0 +1,161 @@
+.about-top {
+  padding: 120px 30px;
+  text-align: left;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.about.container {
+  display: flex;
+  align-content: center;
+  justify-content: start;
+  text-align: left;
+}
+
+.text-container {
+  width: 75%;
+}
+
+.section-title-text {
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  color: #999;
+  margin-bottom: 30px;
+}
+
+.text-container h1 {
+  font-size: 54px;
+  margin: 0px;
+  line-height: 60px;
+  font-weight: 400;
+}
+
+.header {
+  height: 35vw;
+  width: 100vw;
+  background-image: url("../assets/misty-mountain-1404718.jpg");
+  background-position: left;
+}
+.about-blog {
+  padding: 120px 30px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.text-container.section-title h1,
+.section-title-big {
+  text-align: left;
+  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 24px;
+  color: black;
+}
+
+.text-container.section-title p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.link-block {
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.divider {
+  height: 1px;
+  background-color: #e6e6e6;
+  margin: 20px 30px;
+}
+
+.team {
+  padding: 120px 30px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.profile-image {
+  height: 0px;
+  padding-top: 100%;
+  background-color: darkgrey;
+}
+
+.member-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: left;
+}
+
+.member-title {
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: left;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #999;
+}
+
+.text-container {
+  width: 75%;
+}
+
+.team-member-wrapper {
+  margin: 25px 0px;
+}
+
+.contact-wrapper {
+  display: flex;
+  align-content: stretch;
+  justify-content: start;
+  margin: 0px -10px;
+  padding: 120px 30px;
+}
+
+.contact-number {
+  position: relative;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin: 0px auto;
+  background-color: black;
+  /* transform: translateY(-50%); */
+}
+
+.contact-number > * {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.contact-number-wrapper {
+  border: 1px solid black;
+  padding: 45px 30px;
+}
+
+.contact-category {
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  color: #9999;
+  letter-spacing: 1px;
+}
+
+.contact-info {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: black;
+  min-height: 72px;
+}
